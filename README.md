@@ -1,4 +1,4 @@
-# Atalhos[]
-# Arquivos de formatação do Eclipse[] 
-# Xms e Xmx
-# Suspencao de todas validacoes
+# Atalhos
+# Arquivos de formatação do Eclipse
+# Memória Heap | Xms e Xmx
+# Suspenção de todas validações

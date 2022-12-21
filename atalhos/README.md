@@ -36,6 +36,7 @@ Atalho                | Ação
 | :---                | :---:
 | Ctrl + F11          | Executa o programa
 | Alt + Shift + X, J	| Executa classe selecionada como Aplicaçao Java.
+| F11               	| Executa o projeto, depois que executado anteriormente.
 
 
 ## Manipulando linhas

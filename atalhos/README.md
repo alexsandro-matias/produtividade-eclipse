@@ -1,6 +1,6 @@
 # Atalhos do Eclipse
 
-Uma das formas de incrementar a produtividade em programação é a utilização de atalhos tanto do IDE ou Editor pelo programador. Então, abaixo segue uma série de atalhos que facilitam a vida dos desenvolvedores Java que utilizam o [IDE Eclipse](https://www.eclipse.org/downloads/packages/).
+Uma das formas de incrementar a produtividade em programação é a utilização de atalhos tanto do IDE ou Editor pelo programador. Então, abaixo segue uma série de atalhos que facilitam a vida dos desenvolvedores Java que utilizam o [IDE Eclipse](https://www.eclipse.org/downloads/packages/). O eclipse tem a possibilidade de mostrar todos os seus atalhos através do jogo de teclas `Ctrl + Shift + L`. Mas de forma mas detalhada, temos estes mesmo atalhos descritos abaixo:
 
 ## 1. Navegação
 
@@ -38,12 +38,22 @@ Atalho                | Ação
 | Alt + Shift + X, J	| Executa classe selecionada como Aplicaçao Java.
 | F11               	| Executa o projeto, depois que executado anteriormente.
 
+## Modo Debug (Depuração)
+Atalho                | Ação
+| :---                | :---:
+| F6                  | Executa uma linha.
+| F8	                | executar até o proximo breakpoint se houver, ou até o final da execução.
+| Ctrl + F2           | Executa o projeto, depois que executado anteriormente.
 
 ## Manipulando linhas
 Atalho                                     | Ação
 | :---                                     | :---:
 |Ctrl + Alt + ↓ ou Ctrl + Alt + ↑          | Copia a linha ou seleção em que o cursor está localizado.
 | Alt + Shift + X, J	                     | Move a linha ou seleção para cima ou para baixo.
+| Alt + Shift + A                          | Deixa o cursor no modo seleção em blocos.
+
+
+Alt + Shift + A = Para seleção em blocos, ex: colocar a palavra private em vários atributos. Segurar Shift + seta pra baixo até onde vai a seleção, escrever a palavra, e selecionar Alt + Shift + A novamente para sair da seleção.
 
 ## Deleção de código (linhas)
 Atalho                                     | Ação
@@ -67,13 +77,15 @@ Atalho                   | Ação
 | Shift + F2             | Exibe o Javadoc para o tipo, class ou método selecionado.
 | Alt + Shift + N        | Atalho para o menu para criar novos objetos.
 | Alt + Shift + Z        | Criar um block com try e catch no código selecionado.
+| Alt + Shift + L        | Extract Local Variable (Cria uma variavel local).
 
 
 # Editor
 Atalho                   | Ação
 | :---                   | :---:
-Ctrl + 1                 | Correção rápida; resultado depende da posição do cursor.
+Ctrl + N                 | Wizard para cria;áo de um novo artefato (classe, pacote, interface etc.).
 Ctrl + Space             | completa o código que você esta digitando.
+Ctrl + 1                 | Correção rápida; resultado depende da posição do cursor.
 Ctrl + T                 | Exibe a hierarquia da classe java ou método.
 Ctrl + O                 | Exibe todos os metodos da classe atual, precione Ctrl + O novamente para exibir a hierarquia dos metodos.
 Ctrl + M                 | Maximiza o editor ativo
@@ -82,4 +94,5 @@ Ctrl + I                 | Corrige a identação.
 Ctrl + F                 | Abre o dialogo de pesquisa.
 Ctrl + Shift + O         | Organiza os imports.
 
-[Fonte](http://www.vogella.com/tutorials/EclipseShortcuts/article.html) 
+[Fonte](http://www.vogella.com/tutorials/EclipseShortcuts/article.html)
+[Fonte](https://haylson.com.br/eclipse-atalhos-para-produtividade/#:~:text=Ctrl%20%2B%20Shift%20%2B%20B%20%3D%20para,a%20execu%C3%A7%C3%A3o%20atual%20do%20debug.)

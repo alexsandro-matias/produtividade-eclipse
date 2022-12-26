@@ -2,14 +2,17 @@
 
 Uma das formas de incrementar a produtividade em programação é a utilização de atalhos tanto do IDE ou Editor pelo programador. Então, abaixo segue uma série de atalhos que facilitam a vida dos desenvolvedores Java que utilizam o [IDE Eclipse](https://www.eclipse.org/downloads/packages/). O eclipse tem a possibilidade de mostrar todos os seus atalhos através do jogo de teclas `Ctrl + Shift + L`. Mas de forma mas detalhada, temos estes mesmo atalhos descritos abaixo:
 
-## 1. Navegação
 
+## Navegação
   Atalho              | Ação
 | :---                | :---:      
 | Ctrl + Shift + R    | Dialog de pesquisa para recursos, ex: arquivos de texto, classes java, arquivos html, etc.    
 | Ctrl + Shift + T    | Dialog de pesquisa por tipo
-| Ctrl + E            | Dialog de pesquisa para selecionar algum arquivo atualmente aberto  
-| Ctrl + F8           | Atalho para trocar de pespectiva
+| Ctrl + E            | Dialog de pesquisa para selecionar algum arquivo atualmente aberto.
+| Ctrl + O            | Localizar método no arquivo atual.
+| Ctrl + L            | Localizar texto no arquivo atual.
+| Ctrl + F8           | Atalho para trocar de pespectiva.
+
 
 ## Pesquisas
 Atalho                | Ação
@@ -22,6 +25,8 @@ Atalho                | Ação
 | Ctrl + Shift + G	  | No editor java, pesquisa por referencias no workspace
 | Ctrl + Shift + P    | Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).
 
+
+
 ## Navegação
 Atalho                | Ação
 | :---                | :---:
@@ -31,6 +36,7 @@ Atalho                | Ação
 | Ctrl + Page Up      | Retorna entre abas dos arquivos abertos.     
 | Ctrl + Page Down    | Avança entre abas dos arquivos abertos.
 
+
 ## Execução de programas
 Atalho                | Ação
 | :---                | :---:
@@ -38,12 +44,17 @@ Atalho                | Ação
 | Alt + Shift + X, J	| Executa classe selecionada como Aplicaçao Java.
 | F11               	| Executa o projeto, depois que executado anteriormente.
 
+
 ## Modo Debug (Depuração)
 Atalho                | Ação
 | :---                | :---:
+| F11                 | Uma vez executado o modo Debug, sempre será executado.
+| F5                  | Segue para dentro de um método.
 | F6                  | Executa uma linha.
+| F7                  | Retorna uma linha.
 | F8	                | executar até o proximo breakpoint se houver, ou até o final da execução.
 | Ctrl + F2           | Executa o projeto, depois que executado anteriormente.
+
 
 ## Manipulando linhas
 Atalho                                     | Ação
@@ -52,8 +63,6 @@ Atalho                                     | Ação
 | Alt + Shift + X, J	                     | Move a linha ou seleção para cima ou para baixo.
 | Alt + Shift + A                          | Deixa o cursor no modo seleção em blocos.
 
-
-Alt + Shift + A = Para seleção em blocos, ex: colocar a palavra private em vários atributos. Segurar Shift + seta pra baixo até onde vai a seleção, escrever a palavra, e selecionar Alt + Shift + A novamente para sair da seleção.
 
 ## Deleção de código (linhas)
 Atalho                                     | Ação
@@ -69,6 +78,7 @@ Atalho                                     | Ação
 | :---                                     | :---:
 | Shift + Enter                            | Adiciona uma linha em branco abaixo da linha atual e move o cursor para a nova linha. 
 | Ctrl + Shift + Enter	                   | Mesmo que o anterior, porém com efeito para cima.
+| Ctrl + /	                               | Comenta as linhas selecionadas.
 
 
 ## Objetos
@@ -78,9 +88,10 @@ Atalho                   | Ação
 | Alt + Shift + N        | Atalho para o menu para criar novos objetos.
 | Alt + Shift + Z        | Criar um block com try e catch no código selecionado.
 | Alt + Shift + L        | Extract Local Variable (Cria uma variavel local).
+| Alt + Shift + J        | Gerar comentário de Javadoc.
 
 
-# Editor
+## Editor
 Atalho                   | Ação
 | :---                   | :---:
 Ctrl + N                 | Wizard para cria;áo de um novo artefato (classe, pacote, interface etc.).
@@ -93,6 +104,7 @@ Ctrl + Shift + F         | Formata o código fonte.
 Ctrl + I                 | Corrige a identação.
 Ctrl + F                 | Abre o dialogo de pesquisa.
 Ctrl + Shift + O         | Organiza os imports.
+Ctrl + Shift + F4        | Fechar todas a abas.
 
 [Fonte](http://www.vogella.com/tutorials/EclipseShortcuts/article.html)
 [Fonte](https://haylson.com.br/eclipse-atalhos-para-produtividade/#:~:text=Ctrl%20%2B%20Shift%20%2B%20B%20%3D%20para,a%20execu%C3%A7%C3%A3o%20atual%20do%20debug.)

@@ -19,4 +19,6 @@ Quase no final do arquivo teremos:
 Ou seja, 256 MB para o mínimo, e 2 GB para o máximo. Para melhor aproveitamento, e para o meu caso, mudarei ambos os valores 4096m = 4 GB. 
 
 
-Os valores de Xms e Xmx devem ser valores iguais para evitar problemas de paginação no projeto.
+Os valores de Xms e Xmx devem ser valores iguais para evitar problemas de paginação no projeto. Depois de alterados os valores de memória, e o IDE for aberto novamente, esses valores serão atualizados.
+
+![alt text](https://github.com/alexsandro-matias/produtividade-eclipse/blob/main/fotos/heap03.PNG)

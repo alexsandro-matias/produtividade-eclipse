@@ -4,5 +4,3 @@
 ## [Suspensão de todas validações](https://github.com/alexsandro-matias/produtividade-eclipse/tree/main/suspensao-validacoes)
 ## [Desabilitando Spelling](https://github.com/alexsandro-matias/produtividade-eclipse/tree/main/spelling)
 ## [Desabilitando SerialVersionUID](https://github.com/alexsandro-matias/produtividade-eclipse/tree/main/serial)
-
-

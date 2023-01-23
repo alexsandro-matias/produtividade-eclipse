@@ -87,7 +87,7 @@ Atalho                   | Ação
 | Shift + F2             | Exibe o Javadoc para o tipo, class ou método selecionado.
 | Alt + Shift + N        | Atalho para o menu para criar novos objetos.
 | Alt + Shift + Z        | Criar um block com try e catch no código selecionado.
-| Alt + Shift + L        | Extract Local Variable (Cria uma variavel local).
+| Ctrl + L, 2            | Extract Local Variable (Cria uma variavel local).
 | Alt + Shift + J        | Gerar comentário de Javadoc.
 
 
